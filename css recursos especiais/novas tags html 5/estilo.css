@@ -1,0 +1,29 @@
+header{
+    background: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background: green;
+    padding: 10px;
+}
+
+footer{
+    background: red;
+    padding: 10px;
+}
+
+article{
+    background: yellow;
+    padding: 10px;
+}
+
+section{
+    background: orange;
+    padding: 10px;
+}
+
+aside{
+    background: greenyellow;
+}

@@ -1,0 +1,7 @@
+$classe:"red";
+$cor:red;
+$color: color;
+
+.#{$classe}{
+    #{$color}:$cor;
+}

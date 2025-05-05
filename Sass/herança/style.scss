@@ -1,0 +1,51 @@
+//Múltiplas diretivas
+
+.classe1{
+    color: blue;
+    text-align: center;
+}
+
+.classe2{
+    background-color: black;
+}
+
+.azul{
+    @extend .classe1;
+    @extend .classe2;
+}
+
+//Encadeamento de diretivas
+
+.classe3{
+    color: red;
+    text-align: center;
+}
+
+.classe4{
+    @extend .classe3;
+    background-color: black;
+}
+
+.erro{
+    @extend .classe4;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+//Placeholders(%)
+
+%classe5{
+    color: yellow;
+    text-align: center;
+}
+
+%classe6{
+    @extend %classe5;
+    background-color: black;
+}
+
+.amarelo{
+    @extend %classe6;
+    padding: 5px;
+    border: 2px solid yellow;
+}

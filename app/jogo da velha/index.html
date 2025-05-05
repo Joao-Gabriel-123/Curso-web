@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <label for="jogador1">Nome do primeiro jogador: </label> <br>
+            <input id="jogador1" type="text" required> <br> <br>
+
+            <label for="jogador2">Nome do segundo jogador: </label> <br>
+            <input id="jogador2" type="text" required> <br> <br>
+
+            <button onclick="IniciarJogo()">Começar</button> <br>
+        </div> <br>
+
+        <div class="mensagem" id="mensagem"></div> <br>
+
+        <div id='tabuleiro' class="tabuleiro">
+            <div>
+                <div class="campo campo_hover" id="campo1" onclick="MarcarLocal('1')"></div>
+                <div class="campo campo_hover" id="campo2" onclick="MarcarLocal('2')"></div>
+                <div class="campo campo_hover" id="campo3" onclick="MarcarLocal('3')"></div>
+            </div>
+
+            <div>
+                <div class="campo campo_hover" id="campo4" onclick="MarcarLocal('4')"></div>
+                <div class="campo campo_hover" id="campo5" onclick="MarcarLocal('5')"></div>
+                <div class="campo campo_hover" id="campo6" onclick="MarcarLocal('6')"></div>
+            </div>
+
+            <div>
+                <div class="campo campo_hover" id="campo7" onclick="MarcarLocal('7')"></div>
+                <div class="campo campo_hover" id="campo8" onclick="MarcarLocal('8')"></div>
+                <div class="campo campo_hover" id="campo9" onclick="MarcarLocal('9')"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

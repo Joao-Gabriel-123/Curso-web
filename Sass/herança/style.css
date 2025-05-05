@@ -1,0 +1,38 @@
+.classe1, .azul {
+  color: blue;
+  text-align: center;
+}
+
+.classe2, .azul {
+  background-color: black;
+}
+
+.classe3, .classe4, .erro {
+  color: red;
+  text-align: center;
+}
+
+.classe4, .erro {
+  background-color: black;
+}
+
+.erro {
+  padding: 5px;
+  border: 2px solid red;
+}
+
+.amarelo {
+  color: yellow;
+  text-align: center;
+}
+
+.amarelo {
+  background-color: black;
+}
+
+.amarelo {
+  padding: 5px;
+  border: 2px solid yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

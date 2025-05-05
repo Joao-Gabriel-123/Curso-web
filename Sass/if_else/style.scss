@@ -1,0 +1,53 @@
+$cor: red;
+
+@mixin p{
+    text-align: center;
+    background-color: gray;
+    font-size: 20px;
+    padding: 5px
+}
+
+@if($cor == green){
+    .mensagem{
+        @include p;
+        color: $cor;
+    }
+}@else if($cor == red){
+    .mensagem{
+        @include p;
+        color: $cor;
+    }
+}@else{
+    .mensagem{
+        @include p;
+        color: $cor;
+    }
+}
+
+//if e else com mixin
+
+@mixin tema($tema: padrao){
+    @if($tema == natal){
+        background-color: red;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+    }@else if($tema == blackfriday){
+        background-color: black;
+        color: gold;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+    }@else{
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+
+.tematica{
+    @include tema(natal)
+}

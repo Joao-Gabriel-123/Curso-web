@@ -1,0 +1,27 @@
+$total_colunas: 12;
+@function largura-coluna($coluna){
+
+    @return math.percentage(calc($coluna/$total_colunas));
+
+}
+
+@for $i from 1 through $total_colunas{
+    .col-#{$i}{
+        width: largura-coluna($i);
+        background-color: green;
+        text-align: center;
+        color: white;
+        border: 2px solid black;
+    }
+}
+
+//Outras funções//
+
+//mix(green, orange, 50%)
+//draken(orange, 10%)
+//lighten(blue, 10%)
+
+.alerta{
+    background: blue;
+    color: white;
+}

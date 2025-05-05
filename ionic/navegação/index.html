@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Meu App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+    <h1>Navegação</h1>
+
+    <ion-button (click)="AbrirBotoes()" expand="full">Botões</ion-button>
+    <ion-button (click)="AbrirLista()" expand="full">Lista</ion-button>
+
+    <!-- Botões com href -->
+
+    <!-- <ion-button [href]="'/botoes'" routerdirection="forward" expand="full">Botões</ion-button>
+    <ion-button [href]="'/lista'" routerdirection="forward" expand="full">Lista</ion-button> -->
+
+</ion-content>

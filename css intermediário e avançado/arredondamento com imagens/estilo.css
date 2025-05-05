@@ -1,0 +1,21 @@
+#container{
+    width: 400px;
+    background-image: url(imagens/fundo-arredondamento.png);
+}
+
+#container h2{
+    background: url(imagens/topo2.png) top left no-repeat;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#container p{
+    padding: 0px 20px;
+}
+
+.ultimo{
+    background: url(imagens/baixo2.png) bottom left no-repeat;
+    margin: 0px;
+    padding-bottom: 20px;
+}

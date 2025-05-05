@@ -1,0 +1,18 @@
+#caixa{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: caixa 5s infinite alternate;
+}
+
+@keyframes caixa{
+    from{
+        background: blue;
+        border-radius: 0px;
+    }
+    to{
+        background: red;
+        border-radius: 150px;
+    }
+}   

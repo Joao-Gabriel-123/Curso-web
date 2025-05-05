@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Meu App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+    <h1>Modelos</h1>
+
+    <ion-item>
+        <ion-label position="stacked">Digite sua pesquisa:</ion-label>
+        <ion-input [(ngModel)]="pesquisa" type="text"></ion-input>
+    </ion-item>
+
+    <p>{{ resultado }}</p>
+
+    <ion-button (click)="recuperar()" expand="full">Clique</ion-button>
+
+</ion-content>

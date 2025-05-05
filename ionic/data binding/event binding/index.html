@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Meu App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+    <h2>Event binding</h2>
+
+    <h3>{{ titulo }}</h3>
+
+    <ion-button (click)="acao()">Botão</ion-button>
+
+    <ion-item>
+        <ion-label position="stacked">Seu nome:</ion-label>
+        <ion-input (input)="atualiza()"></ion-input>
+    </ion-item>
+
+</ion-content>

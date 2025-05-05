@@ -1,0 +1,13 @@
+#conteudo {
+    background-color: green;
+    padding: 15px;
+  }
+  #conteudo h1, #conteudo h2 {
+    color: black;
+  }
+  #conteudo a {
+    color: red;
+  }
+  #conteudo a:hover {
+    color: yellow;
+  }

@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Meu App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+    <h4>Grid</h4>
+
+    <ion-grid>
+
+        <ion-row>
+
+            <ion-col size="9">Conteúdo 1</ion-col>
+            <ion-col size="3">Conteúdo 2</ion-col>
+
+        </ion-row>
+
+        <ion-row>
+
+            <ion-col size="4">Conteúdo 1</ion-col>
+            <ion-col size="4">Conteúdo 2</ion-col>
+            <ion-col size="4">Conteúdo 3</ion-col>
+
+        </ion-row>
+
+    </ion-grid>
+
+    <h4>Grid - offset</h4>
+
+    <ion-grid>
+
+        <ion-row>
+
+            <ion-col size="6">Conteúdo 1</ion-col>
+            <ion-col size="3" offset="3">Conteúdo 2</ion-col>
+
+        </ion-row>
+
+    </ion-grid>
+
+    <h4>Grid - alinhamento de textos (ion-text-start, ion-text-center, ion-text-end)</h4>
+
+    <ion-grid>
+
+        <ion-row>
+
+            <ion-col size="4" class="ion-text-start">Start</ion-col>
+            <ion-col size="4" class="ion-text-center">Center</ion-col>
+            <ion-col size="4" class="ion-text-end">End</ion-col>
+
+        </ion-row>
+
+    </ion-grid>
+
+    <h4>Grid - alinhamento vertical (ion-align-items-start, ion-align-items-center, ion-align-items-end)</h4>
+
+    <ion-grid>
+
+        <ion-row class="ion-align-items-start">
+
+            <ion-col size="4">1</ion-col>
+            <ion-col size="4">2</ion-col>
+            <ion-col size="4">3 <br> + <br> +</ion-col>
+
+        </ion-row>
+
+        <ion-row class="ion-align-items-center">
+
+            <ion-col size="4">1</ion-col>
+            <ion-col size="4">2</ion-col>
+            <ion-col size="4">3 <br> + <br> +</ion-col>
+
+        </ion-row>
+
+        <ion-row class="ion-align-items-end">
+
+            <ion-col size="4">1</ion-col>
+            <ion-col size="4">2</ion-col>
+            <ion-col size="4">3 <br> + <br> +</ion-col>
+
+        </ion-row>
+
+    </ion-grid>
+
+</ion-content>

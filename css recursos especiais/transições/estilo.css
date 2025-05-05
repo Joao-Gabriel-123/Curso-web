@@ -1,0 +1,12 @@
+#caixa{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition: all 5s;
+}
+
+#caixa:hover{
+    background: red;
+
+}

@@ -1,0 +1,109 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Meu App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+
+    <h4>Listas</h4>
+
+    <ion-list>
+
+        <ion-item>
+
+            <ion-icon name="add" slot="start"></ion-icon>
+            <ion-label>1 - lorem ipsum doler sit amet</ion-label>
+
+        </ion-item>
+
+        <ion-item>
+
+            <ion-icon name="skull" slot="start"></ion-icon>
+            <ion-label>2 - lorem ipsum doler sit amet</ion-label>
+
+        </ion-item>
+
+    </ion-list>
+
+    <h4>Listas com avatar</h4>
+
+    <ion-list>
+
+        <ion-item>
+
+            <ion-avatar slot="start">
+                <ion-img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzz9TftWwu5jAfStGAEoTD2yHRV7ErloOTVA&s">
+                </ion-img>
+            </ion-avatar>
+            <ion-label>Jamilton Damasceno</ion-label>
+
+        </ion-item>
+
+        <ion-item>
+
+            <ion-avatar slot="start">
+                <ion-img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzz9TftWwu5jAfStGAEoTD2yHRV7ErloOTVA&s">
+                </ion-img>
+            </ion-avatar>
+            <ion-label>Jorge Sant Ana</ion-label>
+
+        </ion-item>
+
+    </ion-list>
+
+    <h4>Listas slide</h4>
+
+    <ion-list>
+
+        <ion-item-sliding>
+
+            <ion-item>
+                <ion-label>Jamilton Damasceno</ion-label>
+
+            </ion-item>
+
+            <ion-item-options side="end">
+
+                <ion-item-option color="success">
+                    <ion-icon name="create" slot="start"></ion-icon>
+                    Alterar
+                </ion-item-option>
+                <ion-item-option color="danger">
+                    <ion-icon name="trash" slot="start"></ion-icon>
+                    Excluir
+                </ion-item-option>
+
+            </ion-item-options>
+
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+
+            <ion-item>
+                <ion-label>Jorge Sant Ana</ion-label>
+
+            </ion-item>
+
+            <ion-item-options side="end">
+
+                <ion-item-option color="success">
+                    <ion-icon name="create" slot="start"></ion-icon>
+                    Alterar
+                </ion-item-option>
+                <ion-item-option color="danger">
+                    <ion-icon name="trash" slot="start"></ion-icon>
+                    Excluir
+                </ion-item-option>
+
+            </ion-item-options>
+
+        </ion-item-sliding>
+
+    </ion-list>
+
+</ion-content>

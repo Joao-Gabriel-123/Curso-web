@@ -1,0 +1,14 @@
+@mixin titulo($cor:white, $cor-bg:black){
+    color: $cor;
+    background-color: $cor-bg;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+h1{
+    @include titulo(blue);
+}
+
+h2{
+    @include titulo(red, grey);
+}

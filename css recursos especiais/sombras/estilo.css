@@ -1,0 +1,19 @@
+#caixa{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#caixa h1{
+    text-shadow: 10px 10px 2px white;
+}
+
+#caixa2{
+    background:red;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 2px ;
+
+    
+}
