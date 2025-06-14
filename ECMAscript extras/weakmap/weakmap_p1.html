@@ -1,0 +1,32 @@
+<html>
+    <body></body>
+    <script>
+                
+        obj1 = {
+            nome: "Jorge Sant Ana",
+            profissao: "Programador Sênior"
+        }
+
+        obj2 = {
+            nome: "Maria Silva",
+            profissao: "CEO"
+        }
+
+        // WeakMap -> Referência e Vazamento de Memória
+
+        const objetos = [obj1, obj2]; // Referência
+
+        console.log("Original");
+        objetos.map((value, index) => console.log(index, value));
+
+        obj2 = null;
+        //obj2.nome = "João Brandão";
+        objetos[1].nome = "João Brandão"; // Vazamento de Memória
+
+        console.log("Resultado");
+        objetos.map((value, index) => console.log(index, value));
+        
+        console.log(obj2);
+
+    </script>
+</html>
